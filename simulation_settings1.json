@@ -1,0 +1,12 @@
+{
+    "start_hour": 7,
+    "work_hours": 8,
+    "clients_arrival_interval": 5,
+    "prob_incoming_clients": [0.71, 0.23, 0.05, 0.01],
+    "prob_service_type": [0.5, 0.4, 0.1],
+    "avg_service_duration": [12, 15, 25],
+    "stdev_service_duration": [0.8, 1.0, 3.0],
+    "num_of_workers": 4, 
+    "row_length": 8
+}
+

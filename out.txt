@@ -1,0 +1,621 @@
+07:00 - 1 - WORKDAY 1 STARTED
+07:02 - 2 - Arrival of 1 client(s). Total clients so far: 1
+07:02 - 3 - Client 1 starts being served by worker 1. Service type: 2 duration: 14 finish time: 07:16. Worker will work: 14
+07:03 - 2 - Arrival of 1 client(s). Total clients so far: 2.
+07:03 - 3 - Client 2 starts being served by worker 2. Service type: 2 duration: 16 finish time: 07:19. Worker will work: 16
+07:15 - 2 - Arrival of 1 client(s). Total clients so far: 3.
+07:15 - 3 - Client 3 starts being served by worker 3. Service type: 1 duration: 13 finish time: 07:28. Worker will work: 13
+07:16 - 5 - Client 1 served. Worker 1 is free. Served so far: 1
+07:19 - 5 - Client 2 served. Worker 2 is free. Served so far: 2
+07:19 - 2 - Arrival of 3 client(s). Total clients so far: 6.
+07:19 - 3 - Client 4 starts being served by worker 4. Service type: 2 duration: 15 finish time: 07:34. Worker will work: 15
+07:19 - 3 - Client 5 starts being served by worker 1. Service type: 1 duration: 13 finish time: 07:32. Worker will work: 27
+07:19 - 3 - Client 6 starts being served by worker 2. Service type: 1 duration: 11 finish time: 07:30. Worker will work: 27
+07:28 - 5 - Client 3 served. Worker 3 is free. Served so far: 3
+07:30 - 5 - Client 6 served. Worker 2 is free. Served so far: 4
+07:31 - 2 - Arrival of 2 client(s). Total clients so far: 8.
+07:31 - 3 - Client 7 starts being served by worker 3. Service type: 1 duration: 12 finish time: 07:43. Worker will work: 25
+07:31 - 3 - Client 8 starts being served by worker 2. Service type: 1 duration: 12 finish time: 07:43. Worker will work: 39
+07:32 - 5 - Client 5 served. Worker 1 is free. Served so far: 5
+07:33 - 2 - Arrival of 1 client(s). Total clients so far: 9.
+07:33 - 3 - Client 9 starts being served by worker 1. Service type: 1 duration: 13 finish time: 07:46. Worker will work: 40
+07:34 - 5 - Client 4 served. Worker 4 is free. Served so far: 6
+07:42 - 2 - Arrival of 1 client(s). Total clients so far: 10.
+07:42 - 3 - Client 10 starts being served by worker 4. Service type: 3 duration: 28 finish time: 08:10. Worker will work: 43
+07:43 - 5 - Client 8 served. Worker 2 is free. Served so far: 7
+07:43 - 5 - Client 7 served. Worker 3 is free. Served so far: 8
+07:45 - 2 - Arrival of 2 client(s). Total clients so far: 12.
+07:45 - 3 - Client 11 starts being served by worker 3. Service type: 2 duration: 14 finish time: 07:59. Worker will work: 39
+07:45 - 3 - Client 12 starts being served by worker 2. Service type: 1 duration: 13 finish time: 07:58. Worker will work: 52
+07:46 - 5 - Client 9 served. Worker 1 is free. Served so far: 9
+07:50 - 2 - Arrival of 2 client(s). Total clients so far: 14.
+07:50 - 3 - Client 13 starts being served by worker 1. Service type: 2 duration: 13 finish time: 08:03. Worker will work: 53
+07:50 - 4 - Client 14 goes to row. Row lenght becomes: 1
+07:56 - 2 - Arrival of 1 client(s). Total clients so far: 15.
+07:56 - 4 - Client 15 goes to row. Row lenght becomes: 2
+07:58 - 5 - Client 12 served. Worker 2 is free. Served so far: 10
+07:58 - 6 - Client 14 leaves row. Waiting time: 8 row lenght: 1. Total time in row: 8. Total clients in row: 1
+07:58 - 3 - Client 14 starts being served by worker 2. Service type: 2 duration: 16 finish time: 08:14. Worker will work: 68
+07:59 - 5 - Client 11 served. Worker 3 is free. Served so far: 11
+07:59 - 6 - Client 15 leaves row. Waiting time: 3 row lenght: 0. Total time in row: 11. Total clients in row: 2
+07:59 - 3 - Client 15 starts being served by worker 3. Service type: 2 duration: 15 finish time: 08:14. Worker will work: 54
+08:03 - 5 - Client 13 served. Worker 1 is free. Served so far: 12
+08:10 - 5 - Client 10 served. Worker 4 is free. Served so far: 13
+08:11 - 2 - Arrival of 2 client(s). Total clients so far: 17.
+08:11 - 3 - Client 16 starts being served by worker 4. Service type: 2 duration: 13 finish time: 08:24. Worker will work: 56
+08:11 - 3 - Client 17 starts being served by worker 1. Service type: 2 duration: 16 finish time: 08:27. Worker will work: 69
+08:14 - 5 - Client 15 served. Worker 3 is free. Total served clients: 14
+08:14 - 5 - Client 14 served. Worker 2 is free. Total served clients: 15
+08:16 - 2 - Arrival of 2 client(s). Total clients so far: 19.
+08:16 - 3 - Client 18 starts being served by worker 3. Service type: 2 duration: 15 finish time: 08:31. Worker will work: 69
+08:16 - 3 - Client 19 starts being served by worker 2. Service type: 1 duration: 12 finish time: 08:28. Worker will work: 80
+08:18 - 2 - Arrival of 1 client(s). Total clients so far: 20.
+08:18 - 4 - Client 20 goes to row. Row lenght becomes: 1
+08:19 - 2 - Arrival of 1 client(s). Total clients so far: 21.
+08:19 - 4 - Client 21 goes to row. Row lenght becomes: 2
+08:24 - 5 - Client 16 served. Worker 4 is free. Served so far: 16
+08:24 - 6 - Client 20 leaves row. Waiting time: 6 row lenght: 1. Total time in row: 17. Total clients in row: 3
+08:24 - 3 - Client 20 starts being served by worker 4. Service type: 1 duration: 13 finish time: 08:37. Worker will work: 69
+08:24 - 2 - Arrival of 1 client(s). Total clients so far: 22.
+08:24 - 4 - Client 22 goes to row. Row lenght becomes: 2
+08:27 - 5 - Client 17 served. Worker 1 is free. Served so far: 17
+08:27 - 6 - Client 21 leaves row. Waiting time: 8 row lenght: 1. Total time in row: 25. Total clients in row: 4
+08:27 - 3 - Client 21 starts being served by worker 1. Service type: 1 duration: 13 finish time: 08:40. Worker will work: 82
+08:27 - 2 - Arrival of 1 client(s). Total clients so far: 23.
+08:27 - 4 - Client 23 goes to row. Row lenght becomes: 2
+08:28 - 5 - Client 19 served. Worker 2 is free. Served so far: 18
+08:28 - 6 - Client 22 leaves row. Waiting time: 4 row lenght: 1. Total time in row: 29. Total clients in row: 5
+08:28 - 3 - Client 22 starts being served by worker 2. Service type: 3 duration: 30 finish time: 08:58. Worker will work: 110
+08:28 - 2 - Arrival of 2 client(s). Total clients so far: 25.
+08:28 - 4 - Client 24 goes to row. Row lenght becomes: 2
+08:28 - 4 - Client 25 goes to row. Row lenght becomes: 3
+08:31 - 5 - Client 18 served. Worker 3 is free. Served so far: 19
+08:31 - 6 - Client 23 leaves row. Waiting time: 4 row lenght: 2. Total time in row: 33. Total clients in row: 6
+08:31 - 3 - Client 23 starts being served by worker 3. Service type: 2 duration: 15 finish time: 08:46. Worker will work: 84
+08:37 - 5 - Client 20 served. Worker 4 is free. Total served clients: 20
+08:37 - 6 - Client 24 leaves row. Waiting time: 9 row lenght: 1. Total time in row: 42. Total clients in row: 7
+08:37 - 3 - Client 24 starts being served by worker 4. Service type: 1 duration: 13 finish time: 08:50. Worker will work: 82
+08:39 - 2 - Arrival of 1 client(s). Total clients so far: 26.
+08:39 - 4 - Client 26 goes to row. Row lenght becomes: 2
+08:40 - 5 - Client 21 served. Worker 1 is free. Total served clients: 21
+08:40 - 6 - Client 25 leaves row. Waiting time: 12 row lenght: 1. Total time in row: 54. Total clients in row: 8
+08:40 - 3 - Client 25 starts being served by worker 1. Service type: 3 duration: 28 finish time: 09:08. Worker will work: 110
+08:40 - 2 - Arrival of 1 client(s). Total clients so far: 27.
+08:40 - 4 - Client 27 goes to row. Row lenght becomes: 2
+08:42 - 2 - Arrival of 1 client(s). Total clients so far: 28.
+08:42 - 4 - Client 28 goes to row. Row lenght becomes: 3
+08:43 - 2 - Arrival of 2 client(s). Total clients so far: 30.
+08:43 - 4 - Client 29 goes to row. Row lenght becomes: 4
+08:43 - 4 - Client 30 goes to row. Row lenght becomes: 5
+08:45 - 2 - Arrival of 2 client(s). Total clients so far: 32.
+08:45 - 4 - Client 31 goes to row. Row lenght becomes: 6
+08:45 - 4 - Client 32 goes to row. Row lenght becomes: 7
+08:46 - 5 - Client 23 served. Worker 3 is free. Total served clients: 22
+08:46 - 6 - Client 26 leaves row. Waiting time: 7 row lenght: 6. Total time in row: 61. Total clients in row: 9
+08:46 - 3 - Client 26 starts being served by worker 3. Service type: 1 duration: 12 finish time: 08:58. Worker will work: 96
+08:46 - 2 - Arrival of 1 client(s). Total clients so far: 33.
+08:46 - 4 - Client 33 goes to row. Row lenght becomes: 7
+08:49 - 2 - Arrival of 1 client(s). Total clients so far: 34.
+08:49 - 4 - Client 34 goes to row. Row lenght becomes: 8
+08:50 - 5 - Client 24 served. Worker 4 is free. Total served clients: 23
+08:50 - 6 - Client 27 leaves row. Waiting time: 10 row lenght: 7. Total time in row: 71. Total clients in row: 10
+08:50 - 3 - Client 27 starts being served by worker 4. Service type: 2 duration: 15 finish time: 09:05. Worker will work: 97
+08:50 - 2 - Arrival of 1 client(s). Total clients so far: 35.
+08:50 - 4 - Client 35 goes to row. Row lenght becomes: 8
+08:58 - 5 - Client 26 served. Worker 3 is free. Total served clients: 24
+08:58 - 6 - Client 28 leaves row. Waiting time: 16 row lenght: 7. Total time in row: 87. Total clients in row: 11
+08:58 - 3 - Client 28 starts being served by worker 3. Service type: 1 duration: 13 finish time: 09:11. Worker will work: 109
+08:58 - 5 - Client 22 served. Worker 2 is free. Total served clients: 25
+08:58 - 6 - Client 29 leaves row. Waiting time: 15 row lenght: 6. Total time in row: 102. Total clients in row: 12
+08:58 - 3 - Client 29 starts being served by worker 2. Service type: 1 duration: 13 finish time: 09:11. Worker will work: 123
+08:58 - 2 - Arrival of 2 client(s). Total clients so far: 37.
+08:58 - 4 - Client 36 goes to row. Row lenght becomes: 7
+08:58 - 4 - Client 37 goes to row. Row lenght becomes: 8
+08:59 - 2 - Arrival of 2 client(s). Total clients so far: 39.
+08:59 - 7 - Client 38 leaves unserved. Total unserved so far: 1
+08:59 - 7 - Client 39 leaves unserved. Total unserved so far: 2
+09:05 - 5 - Client 27 served. Worker 4 is free. Total served clients: 26
+09:05 - 6 - Client 30 leaves row. Waiting time: 22 row lenght: 7. Total time in row: 124. Total clients in row: 13
+09:05 - 3 - Client 30 starts being served by worker 4. Service type: 1 duration: 13 finish time: 09:18. Worker will work: 110
+09:08 - 5 - Client 25 served. Worker 1 is free. Total served clients: 27
+09:08 - 6 - Client 31 leaves row. Waiting time: 23 row lenght: 6. Total time in row: 147. Total clients in row: 14
+09:08 - 3 - Client 31 starts being served by worker 1. Service type: 2 duration: 17 finish time: 09:25. Worker will work: 127
+09:09 - 2 - Arrival of 1 client(s). Total clients so far: 40.
+09:09 - 4 - Client 40 goes to row. Row lenght becomes: 7
+09:11 - 5 - Client 29 served. Worker 2 is free. Total served clients: 28
+09:11 - 6 - Client 32 leaves row. Waiting time: 26 row lenght: 6. Total time in row: 173. Total clients in row: 15
+09:11 - 3 - Client 32 starts being served by worker 2. Service type: 2 duration: 14 finish time: 09:25. Worker will work: 137
+09:11 - 5 - Client 28 served. Worker 3 is free. Total served clients: 29
+09:11 - 6 - Client 33 leaves row. Waiting time: 25 row lenght: 5. Total time in row: 198. Total clients in row: 16
+09:11 - 3 - Client 33 starts being served by worker 3. Service type: 1 duration: 14 finish time: 09:25. Worker will work: 123
+09:12 - 2 - Arrival of 3 client(s). Total clients so far: 43.
+09:12 - 4 - Client 41 goes to row. Row lenght becomes: 6
+09:12 - 4 - Client 42 goes to row. Row lenght becomes: 7
+09:12 - 4 - Client 43 goes to row. Row lenght becomes: 8
+09:13 - 2 - Arrival of 1 client(s). Total clients so far: 44.
+09:13 - 7 - Client 44 leaves unserved. Total unserved so far: 3
+09:18 - 5 - Client 30 served. Worker 4 is free. Total served clients: 30
+09:18 - 6 - Client 34 leaves row. Waiting time: 29 row lenght: 7. Total time in row: 227. Total clients in row: 17
+09:18 - 3 - Client 34 starts being served by worker 4. Service type: 1 duration: 12 finish time: 09:30. Worker will work: 122
+09:20 - 2 - Arrival of 1 client(s). Total clients so far: 45.
+09:20 - 4 - Client 45 goes to row. Row lenght becomes: 8
+09:22 - 2 - Arrival of 1 client(s). Total clients so far: 46.
+09:22 - 7 - Client 46 leaves unserved. Total unserved so far: 4
+09:25 - 5 - Client 33 served. Worker 3 is free. Total served clients: 31
+09:25 - 6 - Client 35 leaves row. Waiting time: 35 row lenght: 7. Total time in row: 262. Total clients in row: 18
+09:25 - 3 - Client 35 starts being served by worker 3. Service type: 2 duration: 14 finish time: 09:39. Worker will work: 137
+09:25 - 5 - Client 32 served. Worker 2 is free. Total served clients: 32
+09:25 - 6 - Client 36 leaves row. Waiting time: 27 row lenght: 6. Total time in row: 289. Total clients in row: 19
+09:25 - 3 - Client 36 starts being served by worker 2. Service type: 1 duration: 12 finish time: 09:37. Worker will work: 149
+09:25 - 5 - Client 31 served. Worker 1 is free. Total served clients: 33
+09:25 - 6 - Client 37 leaves row. Waiting time: 27 row lenght: 5. Total time in row: 316. Total clients in row: 20
+09:25 - 3 - Client 37 starts being served by worker 1. Service type: 1 duration: 12 finish time: 09:37. Worker will work: 139
+09:27 - 2 - Arrival of 1 client(s). Total clients so far: 47.
+09:27 - 4 - Client 47 goes to row. Row lenght becomes: 6
+09:28 - 2 - Arrival of 1 client(s). Total clients so far: 48.
+09:28 - 4 - Client 48 goes to row. Row lenght becomes: 7
+09:30 - 5 - Client 34 served. Worker 4 is free. Total served clients: 34
+09:30 - 6 - Client 40 leaves row. Waiting time: 21 row lenght: 6. Total time in row: 337. Total clients in row: 21
+09:30 - 3 - Client 40 starts being served by worker 4. Service type: 2 duration: 14 finish time: 09:44. Worker will work: 136
+09:31 - 2 - Arrival of 1 client(s). Total clients so far: 49.
+09:31 - 4 - Client 49 goes to row. Row lenght becomes: 7
+09:31 - 2 - Arrival of 2 client(s). Total clients so far: 51.
+09:31 - 4 - Client 50 goes to row. Row lenght becomes: 8
+09:31 - 7 - Client 51 leaves unserved. Total unserved so far: 5
+09:37 - 5 - Client 37 served. Worker 1 is free. Total served clients: 35
+09:37 - 6 - Client 41 leaves row. Waiting time: 25 row lenght: 7. Total time in row: 362. Total clients in row: 22
+09:37 - 3 - Client 41 starts being served by worker 1. Service type: 1 duration: 11 finish time: 09:48. Worker will work: 150
+09:37 - 5 - Client 36 served. Worker 2 is free. Total served clients: 36
+09:37 - 6 - Client 42 leaves row. Waiting time: 25 row lenght: 6. Total time in row: 387. Total clients in row: 23
+09:37 - 3 - Client 42 starts being served by worker 2. Service type: 1 duration: 12 finish time: 09:49. Worker will work: 161
+09:39 - 5 - Client 35 served. Worker 3 is free. Total served clients: 37
+09:39 - 6 - Client 43 leaves row. Waiting time: 27 row lenght: 5. Total time in row: 414. Total clients in row: 24
+09:39 - 3 - Client 43 starts being served by worker 3. Service type: 1 duration: 12 finish time: 09:51. Worker will work: 149
+09:39 - 2 - Arrival of 1 client(s). Total clients so far: 52.
+09:39 - 4 - Client 52 goes to row. Row lenght becomes: 6
+09:40 - 2 - Arrival of 1 client(s). Total clients so far: 53.
+09:40 - 4 - Client 53 goes to row. Row lenght becomes: 7
+09:44 - 5 - Client 40 served. Worker 4 is free. Total served clients: 38
+09:44 - 6 - Client 45 leaves row. Waiting time: 24 row lenght: 6. Total time in row: 438. Total clients in row: 25
+09:44 - 3 - Client 45 starts being served by worker 4. Service type: 3 duration: 21 finish time: 10:05. Worker will work: 157
+09:44 - 2 - Arrival of 2 client(s). Total clients so far: 55.
+09:44 - 4 - Client 54 goes to row. Row lenght becomes: 7
+09:44 - 4 - Client 55 goes to row. Row lenght becomes: 8
+09:48 - 5 - Client 41 served. Worker 1 is free. Total served clients: 39
+09:48 - 6 - Client 47 leaves row. Waiting time: 21 row lenght: 7. Total time in row: 459. Total clients in row: 26
+09:48 - 3 - Client 47 starts being served by worker 1. Service type: 2 duration: 14 finish time: 10:02. Worker will work: 164
+09:49 - 5 - Client 42 served. Worker 2 is free. Total served clients: 40
+09:49 - 6 - Client 48 leaves row. Waiting time: 21 row lenght: 6. Total time in row: 480. Total clients in row: 27
+09:49 - 3 - Client 48 starts being served by worker 2. Service type: 1 duration: 12 finish time: 10:01. Worker will work: 173
+09:51 - 5 - Client 43 served. Worker 3 is free. Total served clients: 41
+09:51 - 6 - Client 49 leaves row. Waiting time: 20 row lenght: 5. Total time in row: 500. Total clients in row: 28
+09:51 - 3 - Client 49 starts being served by worker 3. Service type: 1 duration: 13 finish time: 10:04. Worker will work: 162
+10:01 - 5 - Client 48 served. Worker 2 is free. Total served clients: 42
+10:01 - 6 - Client 50 leaves row. Waiting time: 30 row lenght: 4. Total time in row: 530. Total clients in row: 29
+10:01 - 3 - Client 50 starts being served by worker 2. Service type: 3 duration: 28 finish time: 10:29. Worker will work: 201
+10:02 - 5 - Client 47 served. Worker 1 is free. Total served clients: 43
+10:02 - 6 - Client 52 leaves row. Waiting time: 23 row lenght: 3. Total time in row: 553. Total clients in row: 30
+10:02 - 3 - Client 52 starts being served by worker 1. Service type: 2 duration: 17 finish time: 10:19. Worker will work: 181
+10:04 - 5 - Client 49 served. Worker 3 is free. Total served clients: 44
+10:04 - 6 - Client 53 leaves row. Waiting time: 24 row lenght: 2. Total time in row: 577. Total clients in row: 31
+10:04 - 3 - Client 53 starts being served by worker 3. Service type: 2 duration: 15 finish time: 10:19. Worker will work: 177
+10:05 - 5 - Client 45 served. Worker 4 is free. Total served clients: 45
+10:05 - 6 - Client 54 leaves row. Waiting time: 21 row lenght: 1. Total time in row: 598. Total clients in row: 32
+10:05 - 3 - Client 54 starts being served by worker 4. Service type: 1 duration: 12 finish time: 10:17. Worker will work: 169
+10:10 - 2 - Arrival of 1 client(s). Total clients so far: 56.
+10:10 - 4 - Client 56 goes to row. Row lenght becomes: 2
+10:13 - 2 - Arrival of 2 client(s). Total clients so far: 58.
+10:13 - 4 - Client 57 goes to row. Row lenght becomes: 3
+10:13 - 4 - Client 58 goes to row. Row lenght becomes: 4
+10:16 - 2 - Arrival of 1 client(s). Total clients so far: 59.
+10:16 - 4 - Client 59 goes to row. Row lenght becomes: 5
+10:17 - 5 - Client 54 served. Worker 4 is free. Total served clients: 46
+10:17 - 6 - Client 55 leaves row. Waiting time: 33 row lenght: 4. Total time in row: 631. Total clients in row: 33
+10:17 - 3 - Client 55 starts being served by worker 4. Service type: 1 duration: 12 finish time: 10:29. Worker will work: 181
+10:18 - 2 - Arrival of 2 client(s). Total clients so far: 61.
+10:18 - 4 - Client 60 goes to row. Row lenght becomes: 5
+10:18 - 4 - Client 61 goes to row. Row lenght becomes: 6
+10:18 - 2 - Arrival of 1 client(s). Total clients so far: 62.
+10:18 - 4 - Client 62 goes to row. Row lenght becomes: 7
+10:19 - 5 - Client 53 served. Worker 3 is free. Total served clients: 47
+10:19 - 6 - Client 56 leaves row. Waiting time: 9 row lenght: 6. Total time in row: 640. Total clients in row: 34
+10:19 - 3 - Client 56 starts being served by worker 3. Service type: 2 duration: 13 finish time: 10:32. Worker will work: 190
+10:19 - 5 - Client 52 served. Worker 1 is free. Total served clients: 48
+10:19 - 6 - Client 57 leaves row. Waiting time: 6 row lenght: 5. Total time in row: 646. Total clients in row: 35
+10:19 - 3 - Client 57 starts being served by worker 1. Service type: 2 duration: 14 finish time: 10:33. Worker will work: 195
+10:22 - 2 - Arrival of 1 client(s). Total clients so far: 63.
+10:22 - 4 - Client 63 goes to row. Row lenght becomes: 6
+10:22 - 2 - Arrival of 1 client(s). Total clients so far: 64.
+10:22 - 4 - Client 64 goes to row. Row lenght becomes: 7
+10:29 - 5 - Client 55 served. Worker 4 is free. Total served clients: 49
+10:29 - 6 - Client 58 leaves row. Waiting time: 16 row lenght: 6. Total time in row: 662. Total clients in row: 36
+10:29 - 3 - Client 58 starts being served by worker 4. Service type: 2 duration: 16 finish time: 10:45. Worker will work: 197
+10:29 - 5 - Client 50 served. Worker 2 is free. Total served clients: 50
+10:29 - 6 - Client 59 leaves row. Waiting time: 13 row lenght: 5. Total time in row: 675. Total clients in row: 37
+10:29 - 3 - Client 59 starts being served by worker 2. Service type: 3 duration: 26 finish time: 10:55. Worker will work: 227
+10:29 - 2 - Arrival of 1 client(s). Total clients so far: 65.
+10:29 - 4 - Client 65 goes to row. Row lenght becomes: 6
+10:32 - 5 - Client 56 served. Worker 3 is free. Total served clients: 51
+10:32 - 6 - Client 60 leaves row. Waiting time: 14 row lenght: 5. Total time in row: 689. Total clients in row: 38
+10:32 - 3 - Client 60 starts being served by worker 3. Service type: 3 duration: 25 finish time: 10:57. Worker will work: 215
+10:33 - 5 - Client 57 served. Worker 1 is free. Total served clients: 52
+10:33 - 6 - Client 61 leaves row. Waiting time: 15 row lenght: 4. Total time in row: 704. Total clients in row: 39
+10:33 - 3 - Client 61 starts being served by worker 1. Service type: 2 duration: 16 finish time: 10:49. Worker will work: 211
+10:34 - 2 - Arrival of 1 client(s). Total clients so far: 66.
+10:34 - 4 - Client 66 goes to row. Row lenght becomes: 5
+10:45 - 5 - Client 58 served. Worker 4 is free. Total served clients: 53
+10:45 - 6 - Client 62 leaves row. Waiting time: 27 row lenght: 4. Total time in row: 731. Total clients in row: 40
+10:45 - 3 - Client 62 starts being served by worker 4. Service type: 2 duration: 15 finish time: 11:00. Worker will work: 212
+10:48 - 2 - Arrival of 1 client(s). Total clients so far: 67.
+10:48 - 4 - Client 67 goes to row. Row lenght becomes: 5
+10:49 - 5 - Client 61 served. Worker 1 is free. Total served clients: 54
+10:49 - 6 - Client 63 leaves row. Waiting time: 27 row lenght: 4. Total time in row: 758. Total clients in row: 41
+10:49 - 3 - Client 63 starts being served by worker 1. Service type: 1 duration: 13 finish time: 11:02. Worker will work: 224
+10:54 - 2 - Arrival of 1 client(s). Total clients so far: 68.
+10:54 - 4 - Client 68 goes to row. Row lenght becomes: 5
+10:55 - 5 - Client 59 served. Worker 2 is free. Total served clients: 55
+10:55 - 6 - Client 64 leaves row. Waiting time: 33 row lenght: 4. Total time in row: 791. Total clients in row: 42
+10:55 - 3 - Client 64 starts being served by worker 2. Service type: 2 duration: 14 finish time: 11:09. Worker will work: 241
+10:56 - 2 - Arrival of 2 client(s). Total clients so far: 70.
+10:56 - 4 - Client 69 goes to row. Row lenght becomes: 5
+10:56 - 4 - Client 70 goes to row. Row lenght becomes: 6
+10:57 - 5 - Client 60 served. Worker 3 is free. Total served clients: 56
+10:57 - 6 - Client 65 leaves row. Waiting time: 28 row lenght: 5. Total time in row: 819. Total clients in row: 43
+10:57 - 3 - Client 65 starts being served by worker 3. Service type: 1 duration: 12 finish time: 11:09. Worker will work: 227
+11:00 - 5 - Client 62 served. Worker 4 is free. Total served clients: 57
+11:00 - 6 - Client 66 leaves row. Waiting time: 26 row lenght: 4. Total time in row: 845. Total clients in row: 44
+11:00 - 3 - Client 66 starts being served by worker 4. Service type: 1 duration: 12 finish time: 11:12. Worker will work: 224
+11:02 - 5 - Client 63 served. Worker 1 is free. Total served clients: 58
+11:02 - 6 - Client 67 leaves row. Waiting time: 14 row lenght: 3. Total time in row: 859. Total clients in row: 45
+11:02 - 3 - Client 67 starts being served by worker 1. Service type: 1 duration: 13 finish time: 11:15. Worker will work: 237
+11:04 - 2 - Arrival of 2 client(s). Total clients so far: 72.
+11:04 - 4 - Client 71 goes to row. Row lenght becomes: 4
+11:04 - 4 - Client 72 goes to row. Row lenght becomes: 5
+11:09 - 5 - Client 65 served. Worker 3 is free. Total served clients: 59
+11:09 - 6 - Client 68 leaves row. Waiting time: 15 row lenght: 4. Total time in row: 874. Total clients in row: 46
+11:09 - 3 - Client 68 starts being served by worker 3. Service type: 1 duration: 12 finish time: 11:21. Worker will work: 239
+11:09 - 5 - Client 64 served. Worker 2 is free. Total served clients: 60
+11:09 - 6 - Client 69 leaves row. Waiting time: 13 row lenght: 3. Total time in row: 887. Total clients in row: 47
+11:09 - 3 - Client 69 starts being served by worker 2. Service type: 1 duration: 11 finish time: 11:20. Worker will work: 252
+11:12 - 5 - Client 66 served. Worker 4 is free. Total served clients: 61
+11:12 - 6 - Client 70 leaves row. Waiting time: 16 row lenght: 2. Total time in row: 903. Total clients in row: 48
+11:12 - 3 - Client 70 starts being served by worker 4. Service type: 1 duration: 13 finish time: 11:25. Worker will work: 237
+11:13 - 2 - Arrival of 1 client(s). Total clients so far: 73.
+11:13 - 4 - Client 73 goes to row. Row lenght becomes: 3
+11:15 - 5 - Client 67 served. Worker 1 is free. Total served clients: 62
+11:15 - 6 - Client 71 leaves row. Waiting time: 11 row lenght: 2. Total time in row: 914. Total clients in row: 49
+11:15 - 3 - Client 71 starts being served by worker 1. Service type: 2 duration: 13 finish time: 11:28. Worker will work: 250
+11:20 - 5 - Client 69 served. Worker 2 is free. Total served clients: 63
+11:20 - 6 - Client 72 leaves row. Waiting time: 16 row lenght: 1. Total time in row: 930. Total clients in row: 50
+11:20 - 3 - Client 72 starts being served by worker 2. Service type: 2 duration: 15 finish time: 11:35. Worker will work: 267
+11:21 - 5 - Client 68 served. Worker 3 is free. Total served clients: 64
+11:21 - 6 - Client 73 leaves row. Waiting time: 8 row lenght: 0. Total time in row: 938. Total clients in row: 51
+11:21 - 3 - Client 73 starts being served by worker 3. Service type: 2 duration: 16 finish time: 11:37. Worker will work: 255
+11:24 - 2 - Arrival of 2 client(s). Total clients so far: 75.
+11:24 - 4 - Client 74 goes to row. Row lenght becomes: 1
+11:24 - 4 - Client 75 goes to row. Row lenght becomes: 2
+11:24 - 2 - Arrival of 1 client(s). Total clients so far: 76.
+11:24 - 4 - Client 76 goes to row. Row lenght becomes: 3
+11:25 - 5 - Client 70 served. Worker 4 is free. Total served clients: 65
+11:25 - 6 - Client 74 leaves row. Waiting time: 1 row lenght: 2. Total time in row: 939. Total clients in row: 52
+11:25 - 3 - Client 74 starts being served by worker 4. Service type: 2 duration: 15 finish time: 11:40. Worker will work: 252
+11:28 - 5 - Client 71 served. Worker 1 is free. Total served clients: 66
+11:28 - 6 - Client 75 leaves row. Waiting time: 4 row lenght: 1. Total time in row: 943. Total clients in row: 53
+11:28 - 3 - Client 75 starts being served by worker 1. Service type: 2 duration: 16 finish time: 11:44. Worker will work: 266
+11:28 - 2 - Arrival of 1 client(s). Total clients so far: 77.
+11:28 - 4 - Client 77 goes to row. Row lenght becomes: 2
+11:35 - 5 - Client 72 served. Worker 2 is free. Total served clients: 67
+11:35 - 6 - Client 76 leaves row. Waiting time: 11 row lenght: 1. Total time in row: 954. Total clients in row: 54
+11:35 - 3 - Client 76 starts being served by worker 2. Service type: 2 duration: 15 finish time: 11:50. Worker will work: 282
+11:37 - 5 - Client 73 served. Worker 3 is free. Total served clients: 68
+11:37 - 6 - Client 77 leaves row. Waiting time: 9 row lenght: 0. Total time in row: 963. Total clients in row: 55
+11:37 - 3 - Client 77 starts being served by worker 3. Service type: 1 duration: 12 finish time: 11:49. Worker will work: 267
+11:38 - 2 - Arrival of 1 client(s). Total clients so far: 78.
+11:38 - 4 - Client 78 goes to row. Row lenght becomes: 1
+11:38 - 2 - Arrival of 1 client(s). Total clients so far: 79.
+11:38 - 4 - Client 79 goes to row. Row lenght becomes: 2
+11:38 - 2 - Arrival of 1 client(s). Total clients so far: 80.
+11:38 - 4 - Client 80 goes to row. Row lenght becomes: 3
+11:40 - 5 - Client 74 served. Worker 4 is free. Total served clients: 69
+11:40 - 6 - Client 78 leaves row. Waiting time: 2 row lenght: 2. Total time in row: 965. Total clients in row: 56
+11:40 - 3 - Client 78 starts being served by worker 4. Service type: 2 duration: 15 finish time: 11:55. Worker will work: 267
+11:40 - 2 - Arrival of 1 client(s). Total clients so far: 81.
+11:40 - 4 - Client 81 goes to row. Row lenght becomes: 3
+11:41 - 2 - Arrival of 1 client(s). Total clients so far: 82.
+11:41 - 4 - Client 82 goes to row. Row lenght becomes: 4
+11:44 - 5 - Client 75 served. Worker 1 is free. Total served clients: 70
+11:44 - 6 - Client 79 leaves row. Waiting time: 6 row lenght: 3. Total time in row: 971. Total clients in row: 57
+11:44 - 3 - Client 79 starts being served by worker 1. Service type: 1 duration: 13 finish time: 11:57. Worker will work: 279
+11:44 - 2 - Arrival of 2 client(s). Total clients so far: 84.
+11:44 - 4 - Client 83 goes to row. Row lenght becomes: 4
+11:44 - 4 - Client 84 goes to row. Row lenght becomes: 5
+11:49 - 5 - Client 77 served. Worker 3 is free. Total served clients: 71
+11:49 - 6 - Client 80 leaves row. Waiting time: 11 row lenght: 4. Total time in row: 982. Total clients in row: 58
+11:49 - 3 - Client 80 starts being served by worker 3. Service type: 2 duration: 15 finish time: 12:04. Worker will work: 282
+11:50 - 5 - Client 76 served. Worker 2 is free. Total served clients: 72
+11:50 - 6 - Client 81 leaves row. Waiting time: 10 row lenght: 3. Total time in row: 992. Total clients in row: 59
+11:50 - 3 - Client 81 starts being served by worker 2. Service type: 1 duration: 13 finish time: 12:03. Worker will work: 295
+11:55 - 5 - Client 78 served. Worker 4 is free. Total served clients: 73
+11:55 - 6 - Client 82 leaves row. Waiting time: 14 row lenght: 2. Total time in row: 1006. Total clients in row: 60
+11:55 - 3 - Client 82 starts being served by worker 4. Service type: 1 duration: 13 finish time: 12:08. Worker will work: 280
+11:55 - 2 - Arrival of 1 client(s). Total clients so far: 85.
+11:55 - 4 - Client 85 goes to row. Row lenght becomes: 3
+11:57 - 5 - Client 79 served. Worker 1 is free. Total served clients: 74
+11:57 - 6 - Client 83 leaves row. Waiting time: 13 row lenght: 2. Total time in row: 1019. Total clients in row: 61
+11:57 - 3 - Client 83 starts being served by worker 1. Service type: 1 duration: 12 finish time: 12:09. Worker will work: 291
+11:57 - 2 - Arrival of 1 client(s). Total clients so far: 86.
+11:57 - 4 - Client 86 goes to row. Row lenght becomes: 3
+12:00 - 2 - Arrival of 1 client(s). Total clients so far: 87.
+12:00 - 4 - Client 87 goes to row. Row lenght becomes: 4
+12:01 - 2 - Arrival of 1 client(s). Total clients so far: 88.
+12:01 - 4 - Client 88 goes to row. Row lenght becomes: 5
+12:01 - 2 - Arrival of 2 client(s). Total clients so far: 90.
+12:01 - 4 - Client 89 goes to row. Row lenght becomes: 6
+12:01 - 4 - Client 90 goes to row. Row lenght becomes: 7
+12:03 - 5 - Client 81 served. Worker 2 is free. Total served clients: 75
+12:03 - 6 - Client 84 leaves row. Waiting time: 19 row lenght: 6. Total time in row: 1038. Total clients in row: 62
+12:03 - 3 - Client 84 starts being served by worker 2. Service type: 1 duration: 12 finish time: 12:15. Worker will work: 307
+12:04 - 5 - Client 80 served. Worker 3 is free. Total served clients: 76
+12:04 - 6 - Client 85 leaves row. Waiting time: 9 row lenght: 5. Total time in row: 1047. Total clients in row: 63
+12:04 - 3 - Client 85 starts being served by worker 3. Service type: 1 duration: 13 finish time: 12:17. Worker will work: 295
+12:04 - 2 - Arrival of 1 client(s). Total clients so far: 91.
+12:04 - 4 - Client 91 goes to row. Row lenght becomes: 6
+12:08 - 5 - Client 82 served. Worker 4 is free. Total served clients: 77
+12:08 - 6 - Client 86 leaves row. Waiting time: 11 row lenght: 5. Total time in row: 1058. Total clients in row: 64
+12:08 - 3 - Client 86 starts being served by worker 4. Service type: 1 duration: 11 finish time: 12:19. Worker will work: 291
+12:09 - 5 - Client 83 served. Worker 1 is free. Total served clients: 78
+12:09 - 6 - Client 87 leaves row. Waiting time: 9 row lenght: 4. Total time in row: 1067. Total clients in row: 65
+12:09 - 3 - Client 87 starts being served by worker 1. Service type: 1 duration: 13 finish time: 12:22. Worker will work: 304
+12:09 - 2 - Arrival of 1 client(s). Total clients so far: 92.
+12:09 - 4 - Client 92 goes to row. Row lenght becomes: 5
+12:15 - 5 - Client 84 served. Worker 2 is free. Total served clients: 79
+12:15 - 6 - Client 88 leaves row. Waiting time: 14 row lenght: 4. Total time in row: 1081. Total clients in row: 66
+12:15 - 3 - Client 88 starts being served by worker 2. Service type: 1 duration: 14 finish time: 12:29. Worker will work: 321
+12:17 - 5 - Client 85 served. Worker 3 is free. Total served clients: 80
+12:17 - 6 - Client 89 leaves row. Waiting time: 16 row lenght: 3. Total time in row: 1097. Total clients in row: 67
+12:17 - 3 - Client 89 starts being served by worker 3. Service type: 1 duration: 12 finish time: 12:29. Worker will work: 307
+12:18 - 2 - Arrival of 1 client(s). Total clients so far: 93.
+12:18 - 4 - Client 93 goes to row. Row lenght becomes: 4
+12:18 - 2 - Arrival of 1 client(s). Total clients so far: 94.
+12:18 - 4 - Client 94 goes to row. Row lenght becomes: 5
+12:19 - 5 - Client 86 served. Worker 4 is free. Total served clients: 81
+12:19 - 6 - Client 90 leaves row. Waiting time: 18 row lenght: 4. Total time in row: 1115. Total clients in row: 68
+12:19 - 3 - Client 90 starts being served by worker 4. Service type: 1 duration: 14 finish time: 12:33. Worker will work: 305
+12:22 - 5 - Client 87 served. Worker 1 is free. Total served clients: 82
+12:22 - 6 - Client 91 leaves row. Waiting time: 18 row lenght: 3. Total time in row: 1133. Total clients in row: 69
+12:22 - 3 - Client 91 starts being served by worker 1. Service type: 3 duration: 32 finish time: 12:54. Worker will work: 336
+12:23 - 2 - Arrival of 2 client(s). Total clients so far: 96.
+12:23 - 4 - Client 95 goes to row. Row lenght becomes: 4
+12:23 - 4 - Client 96 goes to row. Row lenght becomes: 5
+12:25 - 2 - Arrival of 1 client(s). Total clients so far: 97.
+12:25 - 4 - Client 97 goes to row. Row lenght becomes: 6
+12:27 - 2 - Arrival of 2 client(s). Total clients so far: 99.
+12:27 - 4 - Client 98 goes to row. Row lenght becomes: 7
+12:27 - 4 - Client 99 goes to row. Row lenght becomes: 8
+12:29 - 5 - Client 89 served. Worker 3 is free. Total served clients: 83
+12:29 - 6 - Client 92 leaves row. Waiting time: 20 row lenght: 7. Total time in row: 1153. Total clients in row: 70
+12:29 - 3 - Client 92 starts being served by worker 3. Service type: 1 duration: 12 finish time: 12:41. Worker will work: 319
+12:29 - 5 - Client 88 served. Worker 2 is free. Total served clients: 84
+12:29 - 6 - Client 93 leaves row. Waiting time: 11 row lenght: 6. Total time in row: 1164. Total clients in row: 71
+12:29 - 3 - Client 93 starts being served by worker 2. Service type: 1 duration: 12 finish time: 12:41. Worker will work: 333
+12:32 - 2 - Arrival of 1 client(s). Total clients so far: 100.
+12:32 - 4 - Client 100 goes to row. Row lenght becomes: 7
+12:33 - 5 - Client 90 served. Worker 4 is free. Total served clients: 85
+12:33 - 6 - Client 94 leaves row. Waiting time: 15 row lenght: 6. Total time in row: 1179. Total clients in row: 72
+12:33 - 3 - Client 94 starts being served by worker 4. Service type: 1 duration: 12 finish time: 12:45. Worker will work: 317
+12:41 - 5 - Client 93 served. Worker 2 is free. Total served clients: 86
+12:41 - 6 - Client 95 leaves row. Waiting time: 18 row lenght: 5. Total time in row: 1197. Total clients in row: 73
+12:41 - 3 - Client 95 starts being served by worker 2. Service type: 2 duration: 15 finish time: 12:56. Worker will work: 348
+12:41 - 5 - Client 92 served. Worker 3 is free. Total served clients: 87
+12:41 - 6 - Client 96 leaves row. Waiting time: 18 row lenght: 4. Total time in row: 1215. Total clients in row: 74
+12:41 - 3 - Client 96 starts being served by worker 3. Service type: 1 duration: 11 finish time: 12:52. Worker will work: 330
+12:42 - 2 - Arrival of 1 client(s). Total clients so far: 101.
+12:42 - 4 - Client 101 goes to row. Row lenght becomes: 5
+12:44 - 2 - Arrival of 3 client(s). Total clients so far: 104.
+12:44 - 4 - Client 102 goes to row. Row lenght becomes: 6
+12:44 - 4 - Client 103 goes to row. Row lenght becomes: 7
+12:44 - 4 - Client 104 goes to row. Row lenght becomes: 8
+12:45 - 5 - Client 94 served. Worker 4 is free. Total served clients: 88
+12:45 - 6 - Client 97 leaves row. Waiting time: 20 row lenght: 7. Total time in row: 1235. Total clients in row: 75
+12:45 - 3 - Client 97 starts being served by worker 4. Service type: 1 duration: 12 finish time: 12:57. Worker will work: 329
+12:52 - 5 - Client 96 served. Worker 3 is free. Total served clients: 89
+12:52 - 6 - Client 98 leaves row. Waiting time: 25 row lenght: 6. Total time in row: 1260. Total clients in row: 76
+12:52 - 3 - Client 98 starts being served by worker 3. Service type: 1 duration: 12 finish time: 13:04. Worker will work: 342
+12:52 - 2 - Arrival of 1 client(s). Total clients so far: 105.
+12:52 - 4 - Client 105 goes to row. Row lenght becomes: 7
+12:53 - 2 - Arrival of 1 client(s). Total clients so far: 106.
+12:53 - 4 - Client 106 goes to row. Row lenght becomes: 8
+12:54 - 5 - Client 91 served. Worker 1 is free. Total served clients: 90
+12:54 - 6 - Client 99 leaves row. Waiting time: 27 row lenght: 7. Total time in row: 1287. Total clients in row: 77
+12:54 - 3 - Client 99 starts being served by worker 1. Service type: 3 duration: 21 finish time: 13:15. Worker will work: 357
+12:56 - 5 - Client 95 served. Worker 2 is free. Total served clients: 91
+12:56 - 6 - Client 100 leaves row. Waiting time: 24 row lenght: 6. Total time in row: 1311. Total clients in row: 78
+12:56 - 3 - Client 100 starts being served by worker 2. Service type: 2 duration: 14 finish time: 13:10. Worker will work: 362
+12:57 - 5 - Client 97 served. Worker 4 is free. Total served clients: 92
+12:57 - 6 - Client 101 leaves row. Waiting time: 15 row lenght: 5. Total time in row: 1326. Total clients in row: 79
+12:57 - 3 - Client 101 starts being served by worker 4. Service type: 1 duration: 12 finish time: 13:09. Worker will work: 341
+12:57 - 2 - Arrival of 1 client(s). Total clients so far: 107.
+12:57 - 4 - Client 107 goes to row. Row lenght becomes: 6
+13:02 - 2 - Arrival of 1 client(s). Total clients so far: 108.
+13:02 - 4 - Client 108 goes to row. Row lenght becomes: 7
+13:04 - 5 - Client 98 served. Worker 3 is free. Total served clients: 93
+13:04 - 6 - Client 102 leaves row. Waiting time: 20 row lenght: 6. Total time in row: 1346. Total clients in row: 80
+13:04 - 3 - Client 102 starts being served by worker 3. Service type: 2 duration: 16 finish time: 13:20. Worker will work: 358
+13:04 - 2 - Arrival of 3 client(s). Total clients so far: 111.
+13:04 - 4 - Client 109 goes to row. Row lenght becomes: 7
+13:04 - 4 - Client 110 goes to row. Row lenght becomes: 8
+13:04 - 7 - Client 111 leaves unserved. Total unserved so far: 6
+13:09 - 5 - Client 101 served. Worker 4 is free. Total served clients: 94
+13:09 - 6 - Client 103 leaves row. Waiting time: 25 row lenght: 7. Total time in row: 1371. Total clients in row: 81
+13:09 - 3 - Client 103 starts being served by worker 4. Service type: 1 duration: 12 finish time: 13:21. Worker will work: 353
+13:10 - 5 - Client 100 served. Worker 2 is free. Total served clients: 95
+13:10 - 6 - Client 104 leaves row. Waiting time: 26 row lenght: 6. Total time in row: 1397. Total clients in row: 82
+13:10 - 3 - Client 104 starts being served by worker 2. Service type: 1 duration: 12 finish time: 13:22. Worker will work: 374
+13:10 - 2 - Arrival of 1 client(s). Total clients so far: 112.
+13:10 - 4 - Client 112 goes to row. Row lenght becomes: 7
+13:13 - 2 - Arrival of 2 client(s). Total clients so far: 114.
+13:13 - 4 - Client 113 goes to row. Row lenght becomes: 8
+13:13 - 7 - Client 114 leaves unserved. Total unserved so far: 7
+13:15 - 5 - Client 99 served. Worker 1 is free. Total served clients: 96
+13:15 - 6 - Client 105 leaves row. Waiting time: 23 row lenght: 7. Total time in row: 1420. Total clients in row: 83
+13:15 - 3 - Client 105 starts being served by worker 1. Service type: 1 duration: 12 finish time: 13:27. Worker will work: 369
+13:16 - 2 - Arrival of 2 client(s). Total clients so far: 116.
+13:16 - 4 - Client 115 goes to row. Row lenght becomes: 8
+13:16 - 7 - Client 116 leaves unserved. Total unserved so far: 8
+13:16 - 2 - Arrival of 1 client(s). Total clients so far: 117.
+13:16 - 7 - Client 117 leaves unserved. Total unserved so far: 9
+13:20 - 5 - Client 102 served. Worker 3 is free. Total served clients: 97
+13:20 - 6 - Client 106 leaves row. Waiting time: 27 row lenght: 7. Total time in row: 1447. Total clients in row: 84
+13:20 - 3 - Client 106 starts being served by worker 3. Service type: 2 duration: 13 finish time: 13:33. Worker will work: 371
+13:20 - 2 - Arrival of 2 client(s). Total clients so far: 119.
+13:20 - 4 - Client 118 goes to row. Row lenght becomes: 8
+13:20 - 7 - Client 119 leaves unserved. Total unserved so far: 10
+13:21 - 5 - Client 103 served. Worker 4 is free. Total served clients: 98
+13:21 - 6 - Client 107 leaves row. Waiting time: 24 row lenght: 7. Total time in row: 1471. Total clients in row: 85
+13:21 - 3 - Client 107 starts being served by worker 4. Service type: 1 duration: 12 finish time: 13:33. Worker will work: 365
+13:22 - 5 - Client 104 served. Worker 2 is free. Total served clients: 99
+13:22 - 6 - Client 108 leaves row. Waiting time: 20 row lenght: 6. Total time in row: 1491. Total clients in row: 86
+13:22 - 3 - Client 108 starts being served by worker 2. Service type: 1 duration: 12 finish time: 13:34. Worker will work: 386
+13:22 - 2 - Arrival of 1 client(s). Total clients so far: 120.
+13:22 - 4 - Client 120 goes to row. Row lenght becomes: 7
+13:23 - 2 - Arrival of 1 client(s). Total clients so far: 121.
+13:23 - 4 - Client 121 goes to row. Row lenght becomes: 8
+13:27 - 5 - Client 105 served. Worker 1 is free. Total served clients: 100
+13:27 - 6 - Client 109 leaves row. Waiting time: 23 row lenght: 7. Total time in row: 1514. Total clients in row: 87
+13:27 - 3 - Client 109 starts being served by worker 1. Service type: 1 duration: 13 finish time: 13:40. Worker will work: 382
+13:27 - 2 - Arrival of 1 client(s). Total clients so far: 122.
+13:27 - 4 - Client 122 goes to row. Row lenght becomes: 8
+13:29 - 2 - Arrival of 2 client(s). Total clients so far: 124.
+13:29 - 7 - Client 123 leaves unserved. Total unserved so far: 11
+13:29 - 7 - Client 124 leaves unserved. Total unserved so far: 12
+13:31 - 2 - Arrival of 1 client(s). Total clients so far: 125.
+13:31 - 7 - Client 125 leaves unserved. Total unserved so far: 13
+13:32 - 2 - Arrival of 2 client(s). Total clients so far: 127.
+13:32 - 7 - Client 126 leaves unserved. Total unserved so far: 14
+13:32 - 7 - Client 127 leaves unserved. Total unserved so far: 15
+13:33 - 5 - Client 107 served. Worker 4 is free. Total served clients: 101
+13:33 - 6 - Client 110 leaves row. Waiting time: 29 row lenght: 7. Total time in row: 1543. Total clients in row: 88
+13:33 - 3 - Client 110 starts being served by worker 4. Service type: 2 duration: 14 finish time: 13:47. Worker will work: 379
+13:33 - 5 - Client 106 served. Worker 3 is free. Total served clients: 102
+13:33 - 6 - Client 112 leaves row. Waiting time: 23 row lenght: 6. Total time in row: 1566. Total clients in row: 89
+13:33 - 3 - Client 112 starts being served by worker 3. Service type: 3 duration: 24 finish time: 13:57. Worker will work: 395
+13:33 - 2 - Arrival of 1 client(s). Total clients so far: 128.
+13:33 - 4 - Client 128 goes to row. Row lenght becomes: 7
+13:34 - 5 - Client 108 served. Worker 2 is free. Total served clients: 103
+13:34 - 6 - Client 113 leaves row. Waiting time: 21 row lenght: 6. Total time in row: 1587. Total clients in row: 90
+13:34 - 3 - Client 113 starts being served by worker 2. Service type: 3 duration: 26 finish time: 14:00. Worker will work: 412
+13:40 - 5 - Client 109 served. Worker 1 is free. Total served clients: 104
+13:40 - 6 - Client 115 leaves row. Waiting time: 24 row lenght: 5. Total time in row: 1611. Total clients in row: 91
+13:40 - 3 - Client 115 starts being served by worker 1. Service type: 1 duration: 13 finish time: 13:53. Worker will work: 395
+13:40 - 2 - Arrival of 2 client(s). Total clients so far: 130.
+13:40 - 4 - Client 129 goes to row. Row lenght becomes: 6
+13:40 - 4 - Client 130 goes to row. Row lenght becomes: 7
+13:47 - 5 - Client 110 served. Worker 4 is free. Total served clients: 105
+13:47 - 6 - Client 118 leaves row. Waiting time: 27 row lenght: 6. Total time in row: 1638. Total clients in row: 92
+13:47 - 3 - Client 118 starts being served by worker 4. Service type: 1 duration: 12 finish time: 13:59. Worker will work: 391
+13:49 - 2 - Arrival of 1 client(s). Total clients so far: 131.
+13:49 - 4 - Client 131 goes to row. Row lenght becomes: 7
+13:53 - 5 - Client 115 served. Worker 1 is free. Total served clients: 106
+13:53 - 6 - Client 120 leaves row. Waiting time: 31 row lenght: 6. Total time in row: 1669. Total clients in row: 93
+13:53 - 3 - Client 120 starts being served by worker 1. Service type: 2 duration: 14 finish time: 14:07. Worker will work: 409
+13:57 - 5 - Client 112 served. Worker 3 is free. Total served clients: 107
+13:57 - 6 - Client 121 leaves row. Waiting time: 34 row lenght: 5. Total time in row: 1703. Total clients in row: 94
+13:57 - 3 - Client 121 starts being served by worker 3. Service type: 1 duration: 13 finish time: 14:10. Worker will work: 408
+13:58 - 2 - Arrival of 1 client(s). Total clients so far: 132.
+13:58 - 4 - Client 132 goes to row. Row lenght becomes: 6
+13:59 - 5 - Client 118 served. Worker 4 is free. Total served clients: 108
+13:59 - 6 - Client 122 leaves row. Waiting time: 32 row lenght: 5. Total time in row: 1735. Total clients in row: 95
+13:59 - 3 - Client 122 starts being served by worker 4. Service type: 2 duration: 13 finish time: 14:12. Worker will work: 404
+14:00 - 5 - Client 113 served. Worker 2 is free. Total served clients: 109
+14:00 - 6 - Client 128 leaves row. Waiting time: 27 row lenght: 4. Total time in row: 1762. Total clients in row: 96
+14:00 - 3 - Client 128 starts being served by worker 2. Service type: 2 duration: 15 finish time: 14:15. Worker will work: 427
+14:07 - 5 - Client 120 served. Worker 1 is free. Total served clients: 110
+14:07 - 6 - Client 129 leaves row. Waiting time: 27 row lenght: 3. Total time in row: 1789. Total clients in row: 97
+14:07 - 3 - Client 129 starts being served by worker 1. Service type: 2 duration: 16 finish time: 14:23. Worker will work: 425
+14:09 - 2 - Arrival of 2 client(s). Total clients so far: 134.
+14:09 - 4 - Client 133 goes to row. Row lenght becomes: 4
+14:09 - 4 - Client 134 goes to row. Row lenght becomes: 5
+14:09 - 2 - Arrival of 1 client(s). Total clients so far: 135.
+14:09 - 4 - Client 135 goes to row. Row lenght becomes: 6
+14:10 - 5 - Client 121 served. Worker 3 is free. Total served clients: 111
+14:10 - 6 - Client 130 leaves row. Waiting time: 30 row lenght: 5. Total time in row: 1819. Total clients in row: 98
+14:10 - 3 - Client 130 starts being served by worker 3. Service type: 2 duration: 15 finish time: 14:25. Worker will work: 423
+14:12 - 5 - Client 122 served. Worker 4 is free. Total served clients: 112
+14:12 - 6 - Client 131 leaves row. Waiting time: 23 row lenght: 4. Total time in row: 1842. Total clients in row: 99
+14:12 - 3 - Client 131 starts being served by worker 4. Service type: 2 duration: 16 finish time: 14:28. Worker will work: 420
+14:13 - 2 - Arrival of 1 client(s). Total clients so far: 136.
+14:13 - 4 - Client 136 goes to row. Row lenght becomes: 5
+14:15 - 5 - Client 128 served. Worker 2 is free. Total served clients: 113
+14:15 - 6 - Client 132 leaves row. Waiting time: 17 row lenght: 4. Total time in row: 1859. Total clients in row: 100
+14:15 - 3 - Client 132 starts being served by worker 2. Service type: 2 duration: 15 finish time: 14:30. Worker will work: 442
+14:23 - 5 - Client 129 served. Worker 1 is free. Total served clients: 114
+14:23 - 6 - Client 133 leaves row. Waiting time: 14 row lenght: 3. Total time in row: 1873. Total clients in row: 101
+14:23 - 3 - Client 133 starts being served by worker 1. Service type: 1 duration: 12 finish time: 14:35. Worker will work: 437
+14:23 - 2 - Arrival of 1 client(s). Total clients so far: 137.
+14:23 - 4 - Client 137 goes to row. Row lenght becomes: 4
+14:23 - 2 - Arrival of 1 client(s). Total clients so far: 138.
+14:23 - 4 - Client 138 goes to row. Row lenght becomes: 5
+14:23 - 2 - Arrival of 1 client(s). Total clients so far: 139.
+14:23 - 4 - Client 139 goes to row. Row lenght becomes: 6
+14:25 - 5 - Client 130 served. Worker 3 is free. Total served clients: 115
+14:25 - 6 - Client 134 leaves row. Waiting time: 16 row lenght: 5. Total time in row: 1889. Total clients in row: 102
+14:25 - 3 - Client 134 starts being served by worker 3. Service type: 2 duration: 15 finish time: 14:40. Worker will work: 438
+14:25 - 2 - Arrival of 1 client(s). Total clients so far: 140.
+14:25 - 4 - Client 140 goes to row. Row lenght becomes: 6
+14:26 - 2 - Arrival of 1 client(s). Total clients so far: 141.
+14:26 - 4 - Client 141 goes to row. Row lenght becomes: 7
+14:28 - 5 - Client 131 served. Worker 4 is free. Total served clients: 116
+14:28 - 6 - Client 135 leaves row. Waiting time: 19 row lenght: 6. Total time in row: 1908. Total clients in row: 103
+14:28 - 3 - Client 135 starts being served by worker 4. Service type: 1 duration: 13 finish time: 14:41. Worker will work: 433
+14:29 - 2 - Arrival of 2 client(s). Total clients so far: 143.
+14:29 - 4 - Client 142 goes to row. Row lenght becomes: 7
+14:29 - 4 - Client 143 goes to row. Row lenght becomes: 8
+14:30 - 5 - Client 132 served. Worker 2 is free. Total served clients: 117
+14:30 - 6 - Client 136 leaves row. Waiting time: 17 row lenght: 7. Total time in row: 1925. Total clients in row: 104
+14:30 - 3 - Client 136 starts being served by worker 2. Service type: 2 duration: 15 finish time: 14:45. Worker will work: 457
+14:35 - 5 - Client 133 served. Worker 1 is free. Total served clients: 118
+14:35 - 6 - Client 137 leaves row. Waiting time: 12 row lenght: 6. Total time in row: 1937. Total clients in row: 105
+14:35 - 3 - Client 137 starts being served by worker 1. Service type: 1 duration: 13 finish time: 14:48. Worker will work: 450
+14:40 - 5 - Client 134 served. Worker 3 is free. Total served clients: 119
+14:40 - 6 - Client 138 leaves row. Waiting time: 17 row lenght: 5. Total time in row: 1954. Total clients in row: 106
+14:40 - 3 - Client 138 starts being served by worker 3. Service type: 1 duration: 13 finish time: 14:53. Worker will work: 451
+14:40 - 2 - Arrival of 1 client(s). Total clients so far: 144.
+14:40 - 4 - Client 144 goes to row. Row lenght becomes: 6
+14:41 - 5 - Client 135 served. Worker 4 is free. Total served clients: 120
+14:41 - 6 - Client 139 leaves row. Waiting time: 18 row lenght: 5. Total time in row: 1972. Total clients in row: 107
+14:41 - 3 - Client 139 starts being served by worker 4. Service type: 1 duration: 12 finish time: 14:53. Worker will work: 445
+14:42 - 2 - Arrival of 1 client(s). Total clients so far: 145.
+14:42 - 4 - Client 145 goes to row. Row lenght becomes: 6
+14:45 - 5 - Client 136 served. Worker 2 is free. Total served clients: 121
+14:45 - 6 - Client 140 leaves row. Waiting time: 20 row lenght: 5. Total time in row: 1992. Total clients in row: 108
+14:45 - 3 - Client 140 starts being served by worker 2. Service type: 1 duration: 12 finish time: 14:57. Worker will work: 469
+14:45 - 2 - Arrival of 1 client(s). Total clients so far: 146.
+14:45 - 4 - Client 146 goes to row. Row lenght becomes: 6
+14:48 - 5 - Client 137 served. Worker 1 is free. Total served clients: 122
+14:48 - 6 - Client 141 leaves row. Waiting time: 22 row lenght: 5. Total time in row: 2014. Total clients in row: 109
+14:48 - 3 - Client 141 starts being served by worker 1. Service type: 1 duration: 13 finish time: 15:01. Worker will work: 463
+14:53 - 5 - Client 139 served. Worker 4 is free. Total served clients: 123
+14:53 - 6 - Client 142 leaves row. Waiting time: 24 row lenght: 4. Total time in row: 2038. Total clients in row: 110
+14:53 - 3 - Client 142 starts being served by worker 4. Service type: 1 duration: 13 finish time: 15:06. Worker will work: 458
+14:53 - 5 - Client 138 served. Worker 3 is free. Total served clients: 124
+14:53 - 6 - Client 143 leaves row. Waiting time: 24 row lenght: 3. Total time in row: 2062. Total clients in row: 111
+14:53 - 3 - Client 143 starts being served by worker 3. Service type: 2 duration: 16 finish time: 15:09. Worker will work: 467
+14:53 - 2 - Arrival of 1 client(s). Total clients so far: 147.
+14:53 - 4 - Client 147 goes to row. Row lenght becomes: 4
+14:57 - 5 - Client 140 served. Worker 2 is free. Total served clients: 125
+14:57 - 6 - Client 144 leaves row. Waiting time: 17 row lenght: 3. Total time in row: 2079. Total clients in row: 112
+14:57 - 3 - Client 144 starts being served by worker 2. Service type: 1 duration: 14 finish time: 15:11. Worker will work: 483
+15:00 - 8 - OFFICIAL WORKDAY 1 END
+15:01 - 5 - Client 141 served. Worker 1 is free. Total served clients: 126
+15:01 - 6 - Client 145 leaves row. Waiting time: 19 row lenght: 2. Total time in row: 2098. Total clients in row: 113
+15:01 - 3 - Client 145 starts being served by worker 1. Service type: 1 duration: 12 finish time: 15:13. Worker will work: 475
+15:06 - 5 - Client 142 served. Worker 4 is free. Total served clients: 127
+15:06 - 6 - Client 146 leaves row. Waiting time: 21 row lenght: 1. Total time in row: 2119. Total clients in row: 114
+15:06 - 3 - Client 146 starts being served by worker 4. Service type: 1 duration: 14 finish time: 15:20. Worker will work: 472
+15:09 - 5 - Client 143 served. Worker 3 is free. Total served clients: 128
+15:09 - 6 - Client 147 leaves row. Waiting time: 16 row lenght: 0. Total time in row: 2135. Total clients in row: 115
+15:09 - 3 - Client 147 starts being served by worker 3. Service type: 3 duration: 32 finish time: 15:41. Worker will work: 499
+15:11 - 5 - Client 144 served. Worker 2 is free. Total served clients: 129
+15:13 - 5 - Client 145 served. Worker 1 is free. Total served clients: 130
+15:20 - 5 - Client 146 served. Worker 4 is free. Total served clients: 131
+15:41 - 5 - Client 147 served. Worker 3 is free. Total served clients: 132
