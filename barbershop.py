@@ -1,41 +1,30 @@
 
-from math import log, sqrt, exp, pi
-from pseudorandom import pseudorandom
+from pseudorandom import PseudoRandom
+from utils.event import hourmin, Event
+from utils.worker import Worker
 
-pr = pseudorandom()
-
-# helper functions
-
-def hourmin(minutes):
-    return "{:02d}".format(minutes // 60) + ":" + "{:02d}".format(minutes % 60)
-
-def printlog(e):
-    timetype = hourmin(e["tm"]) + " - " + str(e["tp"]) + " - "
-    textline = timetype + e["msg"].format(*e["data"])
-    print(textline)
-    return None
-
-def fillEVENTS(elist, ev):
+def fill_events(elist, ev):
     if (len(elist) == 0):
         return [ev]
     for i in (range(len(elist))):
-        if ev["tm"] < elist[i]["tm"] or (ev["tm"] == elist[i]["tm"] and ev["tp"] == 5): 
+        if ev.tm < elist[i].tm or (ev.tm == elist[i].tm and ev.tp == 5): 
             break
-    if (ev["tm"] > elist[i]["tm"]) or (ev["tm"] == elist[i]["tm"] and ev["tp"] == 2):
+    if (ev.tm > elist[i].tm) or (ev.tm == elist[i].tm and ev.tp == 2):
         i = i + 1
     return elist[:i] + [ev] + elist[i:] 
 
-def fillWORKERS(wlist,wtm,w):
+def fill_workers(wlist, w):
     if (len(wlist) == 0):
         return [w]
     for i, win in enumerate(wlist):
-        if wtm[w-1] < wtm[win-1]: 
+        if w.servicetime < win.servicetime:
             break
-    if wtm[w-1] >= wtm[win-1]:
+    if w.servicetime >= win.servicetime:
         i = i + 1
     return wlist[:i] + [w] + wlist[i:]
 
 # setup
+pr = PseudoRandom()
 
 start_hour = 7
 work_hours = 8
@@ -51,12 +40,10 @@ num_of_workers = 4
 N = 0
 clients_arrival_interval = 5
 maxrow = 8
-workedtime = [0] * num_of_workers
 
 EVENTS = []
 ROW = []
-WORKERS = list(range(1, num_of_workers+1))
-#print(workedtime, WORKERS)
+WORKERS = [Worker() for _ in range(num_of_workers)]
 
 time = start_hour*60
 ncl = 0
@@ -66,77 +53,72 @@ Nwaited = 0
 Twaited = 0
 
 EVENTS = [] 
-ev = {"tm": time, "tp": 1, "data": (1,), "msg": "WORKDAY {0} STARTED"}
-EVENTS = fillEVENTS(EVENTS, ev)
-ev = {"tm": last_minute, "tp": 8, "data": (1,), "msg": "OFFICIAL WORKDAY {0} END"}
-EVENTS = fillEVENTS(EVENTS, ev)
+ev = Event(time, 1, (1,))
+EVENTS = fill_events(EVENTS, ev)
+ev = Event(last_minute, 8, (1,))
+EVENTS = fill_events(EVENTS, ev)
 
 t = time + int(round(pr.exponential(clients_arrival_interval)))
-ev = {"tm": t, "tp": 2, "data": (0,0), "msg": "Arrival of {0} client(s). Total clients so far: {1}"}
-EVENTS = fillEVENTS(EVENTS, ev)
+ev = Event(t, 2, (0,0))
+EVENTS = fill_events(EVENTS, ev)
 
 while EVENTS:
-    #print(EVENTS)
-    #print(WORKERS,workedtime)
+
     ev = EVENTS.pop(0)
-    time = ev["tm"]
+    time = ev.tm
 
-    if ev["tp"] in [1,8]:
-        printlog(ev)
+    if ev.tp in [1,8]:
+        print(ev)
 
-    if ev["tp"] == 2:
+    if ev.tp == 2:
         ncl = pr.discrete(prob_incoming_clients) 
-        ev["data"] = (ncl, N+ncl)
-        printlog(ev)
+        ev.data = (ncl, N+ncl)
+        print(ev)
         for _ in range(ncl):
             N = N + 1
             if WORKERS:
                 servtype = pr.discrete(prob_service_type)
                 duration = round(pr.normal(avg_service_duration[servtype-1], stdev_service_duration[servtype-1]))
                 worker = WORKERS.pop(0)
-                workedtime[worker-1] = workedtime[worker-1] + duration
-                ev = {"tm": time+duration, "tp": 5, "data": (N, worker), "msg" : "Client {0} served. Worker {1} is free. Served so far: {2}"}
-                EVENTS = fillEVENTS(EVENTS,ev)
-                info = (N, worker, servtype, duration, hourmin(t+duration), workedtime[worker-1] )
-                msg = "Client {0} starts being served by worker {1}. Service type: {2} duration: {3} finish time: {4}. Worker will work: {5}"
-                ev = {"tm": time, "tp": 3, "data": info, "msg": msg}
+                worker.servicetime = worker.servicetime + duration
+                worker.numclients = worker.numclients + 1
+                ev = Event(time+duration, 5, (N, worker))
+                EVENTS = fill_events(EVENTS, ev)
+                info = (N, worker, servtype, duration, hourmin(t+duration), worker.servicetime)
+                ev = Event(time, 3, info)
             else:
                 if len(ROW) < maxrow:
                     ROW.append((t,N))
-                    ev = {"tm": t, "tp": 4, "data": (N,len(ROW)), "msg": "Client {0} goes to row. Row lenght becomes: {1}"}
+                    ev = Event(t, 4, (N,len(ROW)))
                 else:
                     info = (N,N-Nserved-len(ROW)-num_of_workers+len(WORKERS))
-                    msg = "Client {0} leaves unserved. Total unserved so far: {1}"
-                    ev = {"tm": t, "tp": 7, "data": info, "msg": msg}
-            printlog(ev)
+                    ev = Event(t, 7, info)
+            print(ev)
         t = time + int(round(pr.exponential(clients_arrival_interval)))
         if t < last_minute:
-            ev = {"tm": t, "tp": 2, "data": (0,0), "msg": "Arrival of {0} client(s). Total clients so far: {1}."}
-            EVENTS = fillEVENTS(EVENTS, ev)
+            ev = Event(t, 2, (0,0))
+            EVENTS = fill_events(EVENTS, ev)
 
-    if ev["tp"] == 5:
+    if ev.tp == 5:
         Nserved = Nserved + 1
-        ev["data"] = ev["data"] + (Nserved,)
-        printlog(ev)
-        #WORKERS.append(ev["data"][1])
-        WORKERS = fillWORKERS(WORKERS,workedtime,ev["data"][1])
+        ev.data = ev.data + (Nserved,)
+        print(ev)
+        WORKERS = fill_workers(WORKERS,ev.data[1])
         if ROW:
             waitstart, rowclient  = ROW.pop(0)
             Nwaited = Nwaited + 1
             Twaited = Twaited + (time - waitstart)
             info = (rowclient, (time - waitstart), len(ROW), Twaited, Nwaited)
-            msg = "Client {0} leaves row. Waiting time: {1} row lenght: {2}. Total time in row: {3}. Total clients in row: {4}"
-            ev = {"tm": time, "tp": 6, "data": info, "msg": msg}
-            printlog(ev)
+            ev = Event(time, 6, info)
+            print(ev)
 
             servtype = pr.discrete(prob_service_type)
             duration = round(pr.normal(avg_service_duration[servtype-1], stdev_service_duration[servtype-1]))
             worker = WORKERS.pop(0)
-            workedtime[worker-1] = workedtime[worker-1] + duration
-            ev = {"tm": time+duration, "tp": 5, "data": (rowclient, worker), "msg" : "Client {0} served. Worker {1} is free. Total served clients: {2}"}
-            EVENTS = fillEVENTS(EVENTS,ev)
-            info = (rowclient, worker, servtype, duration, hourmin(time+duration), workedtime[worker-1] )
-            msg = "Client {0} starts being served by worker {1}. Service type: {2} duration: {3} finish time: {4}. Worker will work: {5}"
-            ev = {"tm": time, "tp": 3, "data": info, "msg": msg}
-            printlog(ev)
-
+            worker.servicetime = worker.servicetime + duration
+            worker.numclients = worker.numclients + 1
+            ev = Event(time+duration, 5, (rowclient, worker))
+            EVENTS = fill_events(EVENTS,ev)
+            info = (rowclient, worker, servtype, duration, hourmin(time+duration), worker.servicetime)
+            ev = Event(time, 3, info)
+            print(ev)

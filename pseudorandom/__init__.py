@@ -1,8 +1,8 @@
-# pseudorandom generators
+# PseudoRandom generators
 
 from math import log, sqrt, exp, pi
 
-class pseudorandom():
+class PseudoRandom():
     def __init__(self, fixed = 5167, temp = 3729):
         self.__fixed_multiplier__ = fixed
         self.__temporary_multiplier__ = temp
@@ -38,7 +38,7 @@ class pseudorandom():
                 return i
 
 if __name__  == "__main__":
-    pr = pseudorandom()
+    pr = PseudoRandom()
     for _ in range(10):
         print(pr.gener())
     for _ in range(10):
