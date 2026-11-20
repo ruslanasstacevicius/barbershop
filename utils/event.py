@@ -30,3 +30,7 @@ class Event:
 if (__name__ == "__main__"):
     ev = Event(420, 1, (1,))
     print(ev)
+    ev = Event(430, 2, (1,1))
+    print(ev)
+    ev = Event(430, 3, (1,1,3,22,452,22))
+    print(ev)
